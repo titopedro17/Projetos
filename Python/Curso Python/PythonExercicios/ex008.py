@@ -1,0 +1,8 @@
+a=float(input('Digite o valor em metros para realizar a conversão: '))
+cm=(a*100)
+mm=(a*1000)
+km=(a/1000)
+hm=(a/100)
+dam=(a/10)
+dm=(a*10)
+print('A medida {}m, corresponde a {}cm, {}mm, {}km, {}hm, {}dam, {}dm,'.format(a,cm,mm, km, hm, dam, dm))

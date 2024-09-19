@@ -1,0 +1,6 @@
+a=float(input('Digite o valor a: '))
+b=float(input('Digite o valor b: '))
+print('A soma vale {} '.format(a+b))
+print('A divisão vale {:.3f} '.format(a/b))
+print('A multiplicação vale {} '.format(a*b))
+print('A potenciação vale {} '.format(a**b))
